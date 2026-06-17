@@ -1,12 +1,12 @@
 {
-  "name": "liminality:level_0/hallways",
-  "fallback": "minecraft:empty",
+  "name": "liminality:level_0/large_hallways",
+  "fallback": "liminality:level_0/large_hallways_fallback",
   "elements": [
     {
       "weight": 60,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "liminality:level_0/the_lobby/straight",
+        "location": "liminality:level_0/the_lobby/large_straight",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -15,25 +15,16 @@
       "weight": 30,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "liminality:level_0/the_lobby/corner",
+        "location": "liminality:level_0/the_lobby/large_t_junction",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 8,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "liminality:level_0/the_lobby/t_junction",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "liminality:level_0/the_lobby/open",
+        "location": "liminality:level_0/the_lobby/large_to_small_door",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
