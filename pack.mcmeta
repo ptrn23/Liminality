@@ -1,6 +1,14 @@
 {
     "pack": {
         "description": "§oExperience the §e§oliminality.",
-        "pack_format": 81
+        "pack_format": 101,
+        "min_format": [
+            101,
+            1
+        ],
+        "max_format": [
+            101,
+            1
+        ]
     }
 }
