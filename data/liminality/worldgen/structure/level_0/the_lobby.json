@@ -1,15 +1,15 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#backrooms:remodeled_mess",
+  "biomes": "liminality:the_lobby",
   "step": "underground_structures",
-  "spawn_overrides": {},
-  "terrain_adaptation": "none",
-  "start_pool": "backrooms:remodeled_mess/center",
+  "start_pool": "liminality:level_0/hallways",
   "size": 7,
   "start_height": {
     "absolute": 64
   },
   "max_distance_from_center": 80,
   "dimension_padding": 4,
-  "use_expansion_hack": true
+  "use_expansion_hack": false,
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
 }

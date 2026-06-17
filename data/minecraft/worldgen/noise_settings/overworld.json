@@ -135,7 +135,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "backrooms:the_lobby"
+                "liminality:the_lobby"
               ]
             },
             "then_run": {
@@ -158,13 +158,33 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "backrooms:remodeled_mess"
+                "liminality:remodeled_mess"
               ]
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
                 "Name": "minecraft:smooth_quartz"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "liminality:the_icy_rooms"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:blue_ice"
               }
             }
           }

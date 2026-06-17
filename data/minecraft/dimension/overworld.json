@@ -5,7 +5,7 @@
     "biome_source": {
       "biomes": [
         {
-          "biome": "backrooms:the_lobby",
+          "biome": "liminality:the_lobby",
           "parameters": {
             "continentalness": 0,
             "depth": 0,
@@ -17,7 +17,7 @@
           }
         },
         {
-          "biome": "backrooms:remodeled_mess",
+          "biome": "liminality:remodeled_mess",
           "parameters": {
             "continentalness": 0,
             "depth": 0,
@@ -29,7 +29,7 @@
           }
         },
         {
-          "biome": "backrooms:the_icy_rooms",
+          "biome": "liminality:the_icy_rooms",
           "parameters": {
             "continentalness": 0,
             "depth": 0,
