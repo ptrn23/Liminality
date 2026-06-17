@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "liminality:the_lobby",
+  "biomes": "liminality:level_0/the_lobby",
   "step": "underground_structures",
   "start_pool": "liminality:level_0/hallways",
   "size": 7,
