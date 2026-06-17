@@ -8,19 +8,19 @@
         "tick_delay": 6000
       }
     },
-    "minecraft:visual/sky_color": "#DCD7A0",
-    "minecraft:visual/fog_color": "#C4BD87",
-    "minecraft:visual/water_fog_color": "#333022",
-    "minecraft:visual/ambient_light_color": "#1A1914",
-    "minecraft:visual/block_light_tint": "#FFFBD9"
+    "minecraft:visual/sky_color": "#E8E8E8",
+    "minecraft:visual/fog_color": "#D0D0D0",
+    "minecraft:visual/water_fog_color": "#330A0A",
+    "minecraft:visual/ambient_light_color": "#1A1A1A",
+    "minecraft:visual/block_light_tint": "#FFFFFF"
   },
   "carvers": [],
   "creature_spawn_probability": 0.0,
   "downfall": 0.0,
   "effects": {
-    "water_color": "#635D3B",
-    "grass_color": "#8A8356",
-    "foliage_color": "#8A8356"
+    "water_color": "#661414",
+    "grass_color": "#661414",
+    "foliage_color": "#661414"
   },
   "features": [
     [],
