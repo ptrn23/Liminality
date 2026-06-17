@@ -1,11 +1,40 @@
 {
   "ambient_light": 0.0,
-  "bed_works": true,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.game"
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "never",
+      "error_message": {
+        "text": "You cannot rest here. It isn't safe."
+      }
+    },
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/fast_lava": false,
+    "minecraft:visual/ambient_light_color": "#0A0A0A"
+  },
   "coordinate_scale": 1.0,
-  "effects": "minecraft:overworld",
+  "default_clock": "minecraft:overworld",
   "has_ceiling": true,
-  "has_raids": false,
-  "has_skylight": true,
+  "has_ender_dragon_fight": false,
+  "has_skylight": false,
   "height": 128,
   "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 128,
@@ -16,8 +45,5 @@
     "max_inclusive": 7,
     "min_inclusive": 0
   },
-  "natural": true,
-  "piglin_safe": false,
-  "respawn_anchor_works": false,
-  "ultrawarm": false
+  "timelines": "#minecraft:in_overworld"
 }
