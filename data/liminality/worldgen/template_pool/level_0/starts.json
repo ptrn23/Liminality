@@ -37,6 +37,24 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "liminality:level_0/the_lobby/open_q",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "liminality:level_0/the_lobby/open_qt",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
