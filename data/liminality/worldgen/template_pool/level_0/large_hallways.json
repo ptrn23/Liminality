@@ -28,6 +28,24 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "liminality:level_0/the_lobby/stairs_large_to_large",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "liminality:level_0/the_lobby/stairs_large_to_small",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
