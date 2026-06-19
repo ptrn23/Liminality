@@ -3,7 +3,7 @@
   "biomes": "liminality:level_0/the_lobby",
   "step": "underground_structures",
   "start_pool": "liminality:level_0/starts",
-  "size": 7,
+  "size": 14,
   "start_height": {
     "absolute": 64
   },
