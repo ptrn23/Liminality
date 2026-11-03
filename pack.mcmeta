@@ -1,13 +1,13 @@
 {
     "pack": {
         "description": "§oExperience the §e§oliminality.",
-        "pack_format": 107,
+        "pack_format": 121,
         "min_format": [
-            107,
+            121,
             1
         ],
         "max_format": [
-            107,
+            121,
             1
         ]
     }
